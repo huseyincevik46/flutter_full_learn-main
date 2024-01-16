@@ -11,6 +11,8 @@ import '101/google_maps.dart';
 import '101/list_tile_learn.dart';
 import '101/list_view_builder.dart';
 import '101/navigation_learn.dart';
+import '202/cache/shared_learn_view.dart';
+import '202/cache/shared_list_chace.dart';
 import '202/service/service_learn_view.dart';
 import '202/service/service_post_learn_view.dart';
 import '202/tab_learn.dart';
@@ -50,7 +52,7 @@ class MyApp extends StatelessWidget {
       //       backgroundColor: Colors.white,
       //       elevation: 0,
       //     )),
-      home: const ServicePostLearn(),
+      home: const SharedListChache(),
     );
   }
 }
