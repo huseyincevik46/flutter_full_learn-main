@@ -10,14 +10,14 @@ class PartOfLearn extends StatefulWidget {
 class _PartOfLearnState extends State<PartOfLearn> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: ParOfaAppbar(),
+    return const Scaffold(
+      appBar: PartOfAppBar(),
     );
   }
 }
 
-class ParOfaAppbar extends StatelessWidget {
-  const ParOfaAppbar({
+class PartOfAppBar extends StatelessWidget with PreferredSizeWidget {
+  const PartOfAppBar({
     super.key,
   });
 
@@ -30,4 +30,7 @@ class ParOfaAppbar extends StatelessWidget {
       ],
     );
   }
+
+  @override
+  Size get preferredSize => Size.fromHeight(kToolbarHeight);
 }
