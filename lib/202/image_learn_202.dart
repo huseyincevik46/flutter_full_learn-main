@@ -22,7 +22,7 @@ class _ImageLearn202State extends State<ImageLearn202> {
               },
               icon: const Icon(Icons.remove))
         ],
-        title: Text(
+        title: const Text(
             //context.read<ResourceContext>().model?.data?.length.toString() ??
             ''),
       ),
