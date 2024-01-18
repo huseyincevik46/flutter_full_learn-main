@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import '../shared_learn_view.dart';
-import '../shared_manager.dart';
-import '../user_model.dart';
+import '../cache/shared_learn_view.dart';
+import '../cache/shared_manager.dart';
+import '../cache/user_model.dart';
 
 class UserChacheManager {
   final SharedManager sharedManager;
