@@ -15,5 +15,5 @@ class ColorLearn extends StatelessWidget {
 class ColorsItems {
   static const Color porchase = Color(0xffEDBF61);
 
-  static const Color sulu = Color(0xffEDBF61);
+  static const Color sulu = Color.fromARGB(255, 14, 13, 13);
 }

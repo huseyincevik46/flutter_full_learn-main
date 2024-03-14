@@ -36,14 +36,26 @@ class _ListViewLearnState extends State<ListViewLearn> {
           SizedBox(
               // dikeyde listview yapıyoruz ekranın yarısını alarak
               height: 300,
-              child: ListView(
-                scrollDirection: Axis.horizontal,
-                children: [
-                  Container(color: Colors.green, width: 100),
-                  Container(color: Colors.white, width: 100),
-                  Container(color: Colors.green, width: 100),
-                  Container(color: Colors.white, width: 100),
-                ],
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: [
+                    Container(
+                      color: Colors.green,
+                      width: 200,
+                      height: 10,
+                    ),
+                    Container(
+                      color: Colors.black,
+                      width: 100,
+                      height: 20,
+                    ),
+                    Container(color: Colors.white, width: 100),
+                    Container(color: Colors.white, width: 100),
+                    Container(color: Colors.white, width: 100),
+                  ],
+                ),
               )),
           IconButton(onPressed: () {}, icon: const Icon(Icons.close)),
           //const _ListDemo()

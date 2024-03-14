@@ -11,12 +11,12 @@ class _PartOfLearnState extends State<PartOfLearn> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      appBar: PartOfAppBar(),
-    );
+        //appBar: PartOfAppBar(),
+        );
   }
 }
 
-class PartOfAppBar extends StatelessWidget with PreferredSizeWidget {
+class PartOfAppBar extends StatelessWidget {
   const PartOfAppBar({
     super.key,
   });
